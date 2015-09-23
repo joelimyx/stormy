@@ -90,8 +90,8 @@ public class Hour implements Parcelable {
     }
     private Hour(Parcel in){
         mTime=in.readLong();
-        mSummary=in.readString();
         mTemperature=in.readDouble();
+        mSummary=in.readString();
         mIcon=in.readString();
         mTimeZone =in.readString();
     }
